@@ -1,0 +1,48 @@
+{
+  "participant_id": "P01",
+  "sessionID": 1,
+  "input_mode": "mouse",
+  "dwell_time_ms": 800,
+  "fullscreen": false,
+  "window_size": [1440, 900],
+  "fps": 60,
+  "start_page": "necesidades",
+  "grid": {"columns": 5, "rows": 4},
+  "speech": {
+    "enabled": true,
+    "speak_on_select": true,
+    "language": "es",
+    "rate": 0,
+    "volume": 100
+  },
+  "feedback": {
+    "selection_flash_ms": 350,
+    "hysteresis_px": 14,
+    "sentence_max_items": 12
+  },
+  "log_dir": "logs",
+  "log_samples": true,
+  "colors": {
+    "background": "#ffffff",
+    "ink": "#191919",
+    "border": "#c7c7c7",
+    "focus": "#795000",
+    "focus_background": "#fff1c9",
+    "progress_track": "#e2d8be",
+    "selected": "#2e7d32",
+    "panel": "#f2f2f2"
+  },
+  "tobii": {
+    "launch_bridge": true,
+    "bridge_executable": "sdk_bridge/windows/build/gaze_server.exe",
+    "bridge_cwd": "sdk_bridge/windows",
+    "udp_ip": "127.0.0.1",
+    "udp_port": 5005,
+    "source_screen_width_px": 1920,
+    "source_screen_height_px": 1200,
+    "sample_stale_after_ms": 150,
+    "treat_zero_zero_as_invalid": true,
+    "startup_wait_ms": 1200,
+    "show_pointer": false
+  }
+}

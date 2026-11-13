@@ -1,0 +1,13 @@
+Pictogramas propios (opcional)
+==============================
+El tablero ya trae todos sus pictogramas dibujados por codigo (carpeta picto/).
+Si quieres usar otros dibujos (por ejemplo de ARASAAC, https://arasaac.org),
+guarda aqui un PNG con el MISMO nombre que el id del pictograma y el tablero lo
+usara en su lugar. Ejemplos: comer.png, beber.png, bano.png, quiero.png ...
+
+La lista de ids esta en aac/pages.py. Un PNG cuadrado con fondo transparente
+queda mejor (se escala para caber en la tecla).
+
+Licencia: los pictogramas de ARASAAC son de Gobierno de Aragon (autor Sergio
+Palao) y se distribuyen con licencia CC BY-NC-SA. Si los usas hay que citar la
+autoria, no usarlos con fines comerciales y compartir con la misma licencia.
