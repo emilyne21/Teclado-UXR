@@ -161,21 +161,3 @@ previews/             imágenes de cada página
 logs/                 registros (se crea sola)
 ```
 
-## Pruebas
-
-```cmd
-.venv\Scripts\python.exe -m unittest discover -s tests -t . -v
-```
-
-52 pruebas: dwell (umbral, sin repetición, re-armado, muestra inválida), mirada UDP (paquetes
-válidos/inválidos, `0,0`, muestra vieja, escalado, fuera de pantalla, socket real), tablero
-(teclas dentro de la ventana y sin solaparse, frase, paginación), flujo completo con ratón y con
-Tobii simulado, registros y vistas previas.
-
-## Qué se ha probado y qué no
-
-Probado en Linux sin pantalla (`SDL_VIDEODRIVER=dummy`) con Python 3.13 y pygame 2.6.1: pruebas
-unitarias, imágenes de todas las páginas y una ejecución completa del bucle con un emisor UDP que
-simula al Tobii. **No** se ha probado en un Windows real con el Tobii: conviene hacer una pasada
-antes de la clase con `iniciar_mouse.bat` (voz y ventana) y después con `iniciar_tobii.bat`
-(puente, calibración y tamaño de pantalla de origen).
