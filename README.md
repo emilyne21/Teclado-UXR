@@ -1,13 +1,7 @@
 # Teclado de pictogramas (comunicación aumentativa y alternativa)
 
 Tablero de comunicación con pictogramas, pensado para usarse **sin clic**: la selección se hace
-manteniendo el ratón o la mirada (Tobii) sobre una tecla durante un tiempo (*dwell*), igual que en
-los teclados A/B de la semana 10.
-
-Es la versión interactiva del *Tablero de elección – Necesidades* (YO, QUIERO, COMER, BEBER, IR AL
-BAÑO, DORMIR, DUCHAR, OÍR MÚSICA, VER LA TELE, PASEAR, JUGAR, HABLAR, LEER, ORDENADOR…), ampliado
-a **9 páginas y más de 120 pictogramas**. Los dibujos son originales de este proyecto (no son los de
-ARASAAC); se pueden sustituir por otros, ver más abajo.
+manteniendo el ratón o la mirada (Tobii) sobre una tecla durante un tiempo (*dwell*).
 
 ## Qué hay en el tablero
 
